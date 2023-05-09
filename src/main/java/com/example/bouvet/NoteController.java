@@ -3,7 +3,6 @@ package com.example.bouvet;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @RestController
 @RequestMapping("/notes")
