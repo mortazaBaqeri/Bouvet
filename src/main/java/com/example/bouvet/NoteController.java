@@ -49,7 +49,7 @@ public class NoteController {
     }
 
     @DeleteMapping("{id}")
-    public void destroy(@PathVariable("id") Integer id) throws Exception{
+    public void destroy(@PathVariable("id") Integer id){
         if (repository.existsById(id)){
             repository.deleteById(id);
         }else{
